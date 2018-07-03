@@ -1,0 +1,99 @@
+/*   
+Theme Name: Miami
+Version: 1.0
+Tags: clean, development, translation-ready, html5, bootstrap 4.0.0-alpha, fontawesome , animate.css
+Description: Wordpress theme with minimal bootstrap4 for fast development starting
+Author: Eugene Bilovol
+Author URI: https://bitabit.com.ua
+*/
+
+/** CUSTOM style **/
+
+/** BOOTSTRAP style **/
+
+/** MEDIA **/
+
+/** PREVIEW **/
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body{
+	background-image: url(preview/media/bg.jpg);
+	color: #3f7090;
+	background-size: contain;
+	font-family: 'Quicksand', sans-serif;
+
+}
+img.top-image{
+	width: 100%;
+}
+h1.name{
+	padding-top: 40px;
+	color: #fb2b7f;
+	font-size: 68px;
+	background: -webkit-linear-gradient(#e289ad, #fb2a7e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+	z-index: 99999;
+	font-family:'Parisienne', cursive;
+
+}
+h2.name{
+	background: -webkit-linear-gradient(rgba(254, 94, 200, 0.61), rgba(66, 79, 123, 0.61));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 900;
+	position: absolute;
+	right: 0;
+	left: 0;
+	font-size: 70px;
+	top: 0;
+	z-index: -99999;
+	font-family: 'Righteous', cursive;
+}
+
+ul.list-inline{
+	text-transform: uppercase;
+	font-size: 13px;
+	color:white;
+}
+li.list-inline-item:last-child:after{
+	display: none;
+}
+li.list-inline-item{
+
+}
+li.list-inline-item::after{
+	display: inline-block;
+	content: ' ';
+	height: 8px;
+	width: 8px;
+	border-radius: 20px;
+	background:white;
+	margin-left: 6px;
+	vertical-align: initial;
+}
+.main{
+	color: #4274b9;
+	font-size: 13px;
+	font-weight: 600;
+}
+.un{
+	text-transform: uppercase !important;
+}
+.blockquote{
+	border-left: none !important;
+}
+a.bit{
+	font-family: 'Righteous', cursive;
+	color:#fd3059;
+	font-size: 22px;
+}
+a.bit:hover{
+	color:#fd3059;
+}
+dd{
+	word-wrap: break-word;
+}
